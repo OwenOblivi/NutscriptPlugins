@@ -11,7 +11,7 @@ nut.config.add("toggleMOTD", true, "Toggle the MOTD on or off.", nil, {
 	category = "MOTD"
 })
 
-local function motd()
+function motd()
 	local frame = vgui.Create( "DFrame" );
 		frame:SetTitle( "MOTD" );
 		frame:SetSize( ScrW() * 0.75, ScrH() * 0.75 );
