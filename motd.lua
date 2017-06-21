@@ -1,5 +1,5 @@
 local PLUGIN = PLUGIN
-PLUGIN.name = "Message of the day"
+PLUGIN.name = "Message Of The Day"
 PLUGIN.author = "OwenOblivi"
 PLUGIN.desc = "Allows you to set a message of the day, similar to ULX."
 
